@@ -36,20 +36,20 @@
 	-webkit-border-radius: 0;
 	border-radius: 0;
 	color: #fff;
-	padding: 0px!important;
-	margin: 10px 0!important;
+	padding: 0px;
+	margin: 10px 0;
 	line-height: 2.5;
-	display: flex!important;
+	display: flex;
 	text-transform: capitalize;
 }
 .ui-accordion .ui-accordion-content{
 	background-color: #c9defd;
-	padding: 1em!important;
+	padding: 1em;
 }
 .ui-state-default,
 .ui-state-active{
-	border: 0!important;
-	background-color: #7796c3!important;
+	border: 0;
+	background-color: #7796c3;
 }
 
 .jet,
@@ -107,7 +107,7 @@ img#map {width:1016px;}
 	position: absolute;
 	top:10px;
 	left: 10px;
-	font-size: 30px!important;
+	font-size: 30px;
 }
 .fa-times-circle:hover{
 	cursor: pointer;
