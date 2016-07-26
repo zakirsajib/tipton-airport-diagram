@@ -1,8 +1,4 @@
 jQuery(document).ready(function($){
-	$('.menu-toggle').click(function(e){
-		e.preventDefault();
-		$('.main-navigation ul').toggle(); 
-	});
 	
 	$(".panzoom").panzoom({
 		$zoomIn: $(".zoomin"),
@@ -11,9 +7,7 @@ jQuery(document).ready(function($){
 		contain: "invert",
 		minScale: 1
 	});
-	
-	
-	
+		
 	$( "#accordion" ).accordion({
       	collapsible: true,
       	active: false,

@@ -1,0 +1,114 @@
+/**************** Airport Diagram ****************/
+
+.diagram-container{
+	padding: 300px 0 0;
+	margin: 0 auto;
+	display: table;
+}
+
+.col-8{
+	float: left;
+	width: 1017px;
+}
+.col-4{
+	float: left;
+	width: 257px;
+}
+
+.diagram-sidebar{
+	background-color: #c9defd;
+	padding: 3em 1em;
+	height: 511px;
+	overflow-y: scroll;
+}
+.airport-heading{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 0 10px;
+	margin: 0;
+	font-size: 20px;
+	color: #0e1246;
+}
+
+.ui-accordion .ui-accordion-header{
+	background-color: #7796c3;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	color: #fff;
+	padding: 0px!important;
+	margin: 10px 0!important;
+	line-height: 2.5;
+	display: flex!important;
+	text-transform: capitalize;
+}
+.ui-accordion .ui-accordion-content{
+	background-color: #c9defd;
+	padding: 1em!important;
+}
+.ui-state-default,
+.ui-state-active{
+	border: 0!important;
+	background-color: #7796c3!important;
+}
+
+.jet,
+.hangar85,
+.hangar80,
+.hangar84,
+.hangar90,
+.newhangars,
+.llfuel,
+.parking,
+.terminal{ 
+	display: none;
+	position: relative;
+}
+.map-container{
+	position: relative;
+}
+
+.zoomin{
+	position: absolute;
+    bottom: 120px;
+    left: 50px;
+    background: #fff;
+    padding: 2px 8px;
+}
+.zoomout{
+	position: absolute;
+    bottom: 90px;
+    left: 50px;
+    background: #fff;
+    padding: 2px 8px;
+}
+
+.reset{
+	position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background: #fff;
+    padding: 4px 5px 0;
+}
+.zoomin:hover,
+.zoomout:hover,
+.reset:hover{
+	cursor: pointer;
+}
+
+.map-container {
+	height:607px; 
+	display:block; 
+	overflow:hidden; 
+}
+img#map {width:1016px;}
+
+.fa-times-circle{
+	position: absolute;
+	top:10px;
+	left: 10px;
+	font-size: 30px!important;
+}
+.fa-times-circle:hover{
+	cursor: pointer;
+}

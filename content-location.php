@@ -1,5 +1,5 @@
 <div class="diagram-sidebar">
-<div class="airport-heading">Tipton Airport Diagram</div>
+<div class="airport-heading"><?php the_field('Location_heading')?></div>
 <div id="accordion">
   <h3><img src="<?php echo get_template_directory_uri()?>/images/one.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;<?php the_field('location_name_one')?></h3>
   <div>
