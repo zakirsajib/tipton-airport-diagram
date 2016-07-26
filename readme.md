@@ -13,9 +13,9 @@ Please note: In github, only shows the required codes i.e. php, js and css files
 * jQuery UI
 * Font Awesome
 
-== URL ==
+=== URL ===
 http://tiptonairport.org/airport-diagram/
 
 
-== Future ==
+=== Future ===
 Love to make this as a plugin.
